@@ -10,7 +10,7 @@ public class Variavel {
         intA = 2;
         System.out.println("intA= " + intA + " intB= " + intB);
 
-        //Objeto aponta para referencia, os dois objeto que referencia também é alterado.
+        //Objeto aponta para referencia, os dois objeto que referencia sao alterado.
         Objeto objA = new Objeto(1);
         Objeto objB = objA;
         System.out.println("objA= " + objA + " objB= " + objB);
